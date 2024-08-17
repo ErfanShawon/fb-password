@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+section{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{
+    border-radius: 10px;
+    background: #131842;
+    box-shadow:  6px 8px 10px #131842,
+                 -2px -2px 12px;
+    padding: 40px 20px;
+}
+.wrapper:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+button{
+    border: none;
+}
+.Forimg img{
+    max-width: 70px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+
+}
+.passToggler{
+    width: 280px;
+    position: relative;
+}
+.passToggler input{
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color:white;
+}
+.passToggler button{
+    position: absolute;
+    background-color: transparent;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+  
+}
+.passToggler button.show{
+    opacity: 1;
+    visibility: visible;
+}
+.email input{
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.log button{
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: blue;
+    color:white;
+}
+.log a{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 14px;
+    font-weight: 400;
+    display:inline-block;
+    margin-top: 20px; 
+}
+
+.new button{
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: green;
+    color:white;
+    margin-left: 60px;
+    padding: 0 20px;
+    display:inline-block;
+}
+
+
